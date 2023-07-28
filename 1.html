@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E Guru</title>
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+        nav {
+            display: flex;
+            background-color: whitesmoke;
+        }
+        .img-logo {
+            display: flex;
+            height: 40px; /* Adjust the height as needed */
+            align-items: center; /* Vertically center the logo and text */
+            gap: 10px; /* Add some spacing between the logo and text */
+        }
+        h2 {
+            font-size: larger;
+            flex-wrap: nowrap;
+        }
+        .list-nav {
+            width: 100%;
+            display: block;
+            display: flex;
+            margin: 8px;
+            padding: 8px;
+            justify-content: space-evenly;
+        }
+        .ul-1 {
+            font-size: large;
+            display: flex;
+            gap: 50px;
+        }
+        .button-signup {
+            height: 30px;
+            align-items: center;
+            gap: 5px;
+            display: flex;
+            margin: 12px;
+            padding: 12px;
+            border: 2px solid black;
+            margin-left: auto; /* Push the button to the right */
+        }
+        .bt-2 {
+            display: flex;
+            height: 30px;
+            align-items: center;
+            gap: 5px;
+            display: flex;
+            margin: 12px;
+            padding: 12px;
+            border: 2px solid black;
+            background-color: rgb(194, 80, 35);
+            color: whitesmoke;
+        }
+        .bt-3 {
+            display: flex;
+            height: 30px;
+            align-items: center;
+            gap: 5px;
+            display: flex;
+            margin: 12px;
+            padding: 12px;
+            border: 2px solid black;
+        }
+        .button-signup:hover {
+            background-color: rgb(94, 151, 222);
+            color: aliceblue;
+            font-size: 20px;
+            border-style: groove;
+            cursor: pointer;
+        }
+        .text {
+            font-size: 50px;
+            margin: 50px;
+            padding: 12px;
+        }
+        p {
+            margin: 60px;
+            padding: 12px;
+            font-size: 20px;
+        }
+        .img-container {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-right: 10px;
+        }
+        .img-container img {
+            max-width: 300px;
+            height: auto;
+            margin: 5px;
+        }
+        /* Style for the main container */
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            position: relative;
+        }
+        .bg-pattern,
+        .main-image-bg,
+        .main-image {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .header-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .circle {
+            position: absolute;
+            top: 400px; /* Adjust the top position */
+            right: 0px; /* Adjust the right position */
+        }
+        .curve {
+            position: absolute;
+            top: 380px;
+            left: 500px; /* Adjust the left position */
+        }
+        .green {
+            position: absolute;
+            top: 470px;
+            left: 770px; /* Adjust the left position */
+        }
+
+        footer{
+            background-color: rgb(3, 3, 36);
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-evenly;
+        }
+
+        .f-4{
+            margin: 10px 20px 10px 20px;
+            padding: 6px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="header-content">
+                <div class="img-logo">
+                    <img src="./logo (1).png" alt="" style="height: 30px;"> <!-- Adjust the height as needed -->
+                    <h2>EGURU</h2>
+                </div>
+                
+            </div>
+            <div class="list-nav">
+                <ul class="ul-1">
+                    <li style="color: orange;">Home</li>
+                    <li>About Us</li>
+                    <li>Features</li>
+                    <li>How It Works</li>
+                </ul>
+            </div>
+
+            <div class="button-signup">
+                    <h4>SignUp</h4>
+                </div>
+
+
+        </nav>
+    </header>
+    <!-- Header Ends here -->
+
+    <!-- Section Starts here -->
+    <section>
+        <div class="text">
+            <div class="container">
+                <!-- Background pattern -->
+                <img src="./main-image-pattern.png" class="bg-pattern" style="height: 400px; width: 400px;" alt="">
+                <!-- Main Bg-image -->
+                <img src="./main-image-bg.png" class="main-image-bg" style="height: 400px; width: 300px;" alt="">
+                <!-- Main image -->
+                <img src="./main-image.png" class="main-image" style="height: 400px; width: 300px;" alt="">
+                <!-- Circle -->
+                <img src="./circle.png" class="circle" alt="">
+                <!-- Curve -->
+                <img src="./curve-arrow.png" class="curve" style="background-image: none;" alt="">
+                <!-- Green -->
+                <img src="./green-arrow.png" class="green" alt="">
+            </div>
+            <h2>Study From <br>Home With Experts</h2>
+            <p>A learning system based on formalized <br> teaching with the help of resources.</p>
+            <div style="display: flex; padding: 10px">
+                <div class="bt-2">
+                    <h6>Get Started</h6>
+                </div>
+                <div class="bt-3">
+                    <h6>Learn More</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Section Ends Here -->
+
+        <!-- footer starts here -->
+
+        <footer>
+            <div class="f-4">
+                <h4 style="font-size: 25px;color:aliceblue">WHY WE ARE  <br>THE BEST</h4>
+                <span style="color: white;">A learning system based on <br> formalised teaching with the help of...</span>
+            </div>
+
+             <div class="f-4">
+                <img src="./vector3.png" class="vector" alt="">
+                <h4 style="font-size: 15px;color:aliceblue">EXPERT TEACHER</h4>
+                <span style="color: white;">A learning system based <br> formalised teaching .</span>
+            </div>
+
+             <div class="f-4">
+                <h4 style="font-size: 35px;color:aliceblue">Online Courses</h4>
+                <span style="color: white;">A learning system based <br> formalised teaching .</span>
+            </div>
+
+             <div class="f-4">
+                <img src="./vector1.png" alt="">
+                <h4 style="font-size: 15px;color:aliceblue">24/7 Support</h4>
+                <span style="color: white;">A learning system based <br> formalised teaching .</span>
+            </div>
+        </footer>
+</body>
+</html>
